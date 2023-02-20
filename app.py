@@ -28,15 +28,15 @@ language = 'Français'
 ### FRANCAIS    
 if language == "Français":
     # download pdf
-    with open(resume_file_fr, "rb") as pdf_file:
-        PDFbyte = pdf_file.read()
-    with col1:   
-        st.download_button(
-            label=" 📄 Télécharger le CV",
-            data=PDFbyte,
-            file_name=resume_file_fr.name,
-            mime="application/octet-stream",
-        )
+    # with open(resume_file_fr, "rb") as pdf_file:
+    #     PDFbyte = pdf_file.read()
+    # with col1:   
+    #     st.download_button(
+    #         label=" 📄 Télécharger le CV",
+    #         data=PDFbyte,
+    #         file_name=resume_file_fr.name,
+    #         mime="application/octet-stream",
+    #     )
         
     st.title("Benjamin-Ousmane M'Bengue")
     st.subheader("**Ingénieur Logiciel _(Science des données & IA)_**")
@@ -78,7 +78,7 @@ if language == "Français":
     st.subheader("Compétences")
     st.write(
         """
-    - 💻 **Programmation** : _Python, Typescript, Javascript, Html/Css, SQL_
+    - 💻 **Programmation** : _Python, Typescript, Javascript, HTML, CSS, SQL_
     - 📱 **Développement d'applications** : _Streamlit, React, Angular, Firebase_
     - 🤖 **Science de données et IA** : _Pandas, Scikit-learn, TensorFlow, Hugging Face_
     - 📊 **Visualisation de données** : _D3, Altair, Matplotlib_
