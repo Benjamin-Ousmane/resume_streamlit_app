@@ -8,8 +8,16 @@ resume_file_fr = current_dir / "assets" / "CV_fr_mbengue.pdf"
 resume_file_eng = current_dir / "assets" / "CV_eng_mbengue.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 tristar_vid= current_dir / "assets" / "video_tristar.mp4"
-video_file = open(tristar_vid, 'rb')
-video_bytes = video_file.read()
+video_tristar_file = open(tristar_vid, 'rb')
+video_tristar_bytes = video_tristar_file.read()
+
+ufc_vid= current_dir / "assets" / "video_ufc_comparison.webm"
+video_ufc_file = open(ufc_vid, 'rb')
+video_ufc_bytes = video_ufc_file.read()
+
+ballon_or_vid= current_dir / "assets" / "video_ballon_or.mp4"
+video_ballon_or_file = open(ballon_or_vid, 'rb')
+video_ballon_or_bytes = video_ballon_or_file.read()
 
 # --- GENERAL SETTINGS ---
 st.set_page_config(page_title="Digital CV | Benjamin-Ousmane M'Bengue", page_icon= "📃", layout="centered")
@@ -28,15 +36,15 @@ language = 'Français'
 ### FRANCAIS    
 if language == "Français":
     # download pdf
-    # with open(resume_file_fr, "rb") as pdf_file:
-    #     PDFbyte = pdf_file.read()
-    # with col1:   
-    #     st.download_button(
-    #         label=" 📄 Télécharger le CV",
-    #         data=PDFbyte,
-    #         file_name=resume_file_fr.name,
-    #         mime="application/octet-stream",
-    #     )
+    with open(resume_file_fr, "rb") as pdf_file:
+        PDFbyte = pdf_file.read()
+    with col1:   
+        st.download_button(
+            label=" 📄 Télécharger le CV",
+            data=PDFbyte,
+            file_name=resume_file_fr.name,
+            mime="application/octet-stream",
+        )
         
     st.title("Benjamin-Ousmane M'Bengue")
     st.subheader("**Ingénieur Logiciel _(Science des données & IA)_**")
@@ -112,6 +120,7 @@ if language == "Français":
     st.write("**Description** : _application web pour comparer les statistiques des combattants à l'UFC_")
     st.write("**Outils utilisés** : _Streamlit, Altair_")
     st.write("📺 [Démo : https://benjamin-ousmane-ufc-app-app-l8bv5i.streamlit.app/](https://benjamin-ousmane-ufc-app-app-l8bv5i.streamlit.app/)")
+    st.video(video_ufc_bytes)
     # --- Projet --- 
     st.write('\n')
     st.write(":red[**🏆 Projet final en intelligence artificielle** _(Automne 2022)_]")
@@ -128,14 +137,15 @@ if language == "Français":
     st.write("**Outils utilisés** : _NextJS, React, Firebase_")
     st.write("**Superviseur** : _hamza.lakrati@outlook.com_")
     st.write("📺 Démo :")
-    st.video(video_bytes)
+    st.video(video_tristar_bytes)
     
     # --- Projet --- 
     st.write('\n')
     st.write(":red[**🏆 Qui mérite le Ballon d'Or 2022 ?** _(Été 2022)_]")
     st.write("**Description** : _comparaison des performances de joueurs de football (Mbappé, Benzema, Mané)_")
     st.write("**Outils utilisés** : _D3, React_")
-    st.write("📺 [Démo : https://benjamin-ousmane.github.io/2022-Ballon-Or-Project](https://benjamin-ousmane.github.io/2022-Ballon-Or-Project/)")
+    st.write("📺 Démo :")
+    st.video(video_ballon_or_bytes)
 
     # --- Expérience sportive ---
     st.write("---")
