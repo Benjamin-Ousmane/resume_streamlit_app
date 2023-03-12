@@ -12,7 +12,7 @@ tristar_vid= current_dir / "assets" / "video_tristar.mp4"
 video_tristar_file = open(tristar_vid, 'rb')
 video_tristar_bytes = video_tristar_file.read()
 
-ufc_vid= current_dir / "assets" / "video_ufc_comparison.webm"
+ufc_vid= current_dir / "assets" / "video_ufc_comparison.mp4"
 video_ufc_file = open(ufc_vid, 'rb')
 video_ufc_bytes = video_ufc_file.read()
 
@@ -92,10 +92,10 @@ if language == "Français":
     st.write("---")
         
     # col1, col2 = st.columns([4,5], gap="large")
-    # with col2:
-    
+
+# with col2:
     # --- HISTORIQUE PROFESSIONNEL ---
-    st.subheader("Expériences Professionnelles")
+    st.subheader("Expériences professionnelles")
 
     # --- POSTE 1
     
@@ -146,9 +146,6 @@ if language == "Français":
 
 
 # with col1:
-    
-            
-
     # --- Compétences ---
     st.write("---")
     st.subheader("Compétences")
@@ -174,7 +171,7 @@ if language == "Français":
 
     # --- Expérience sportive ---
     st.write("---")
-    st.subheader("Expériences Sportives")
+    st.subheader("Expériences sportives")
     st.write("🥋 Grappling - _Tristar Gym Montréal_")
     st.write("⚽ Football - _5 ans au Football Bourg-en-Bresse Péronnas 01_")
     st.write("🙋‍♂️ Arbitre de football - _Ligues du CEPSUM_ ")
