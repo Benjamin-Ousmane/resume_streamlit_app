@@ -148,7 +148,7 @@ st.video(video_ballon_or_bytes)
 
 # with col1:
 # --- Compétences ---
-# st.write("---")
+st.write("---")
 st.subheader("Compétences")
 st.write("💻 **Programmation** ")
 st.write("- _Python, Typescript, Javascript, SQL, HTML, CSS_")
