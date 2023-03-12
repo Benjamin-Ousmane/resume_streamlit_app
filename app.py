@@ -84,7 +84,7 @@ if language == "Français":
                     Jeune ingénieur logiciel diplômé de Polytechnique Montréal. Je reviens m'installer en France pour mettre en pratique mes compétences en développement d'applications 
                     et data science. 
                     Ayant un grand intérêt pour la recherche et l'analyse de données, je possède des connaissances approfondies en visualisation de données, fouille de données et machine learning.
-                    Je suis à la recherche d'une expérience professionnelle liée au domaine du sport et de la performance athlétique.    
+                    Je suis à la recherche d'une expérience professionnelle en tant que <b>data scientist</b> dans un domaine lié au sport et à la performance athlétique.   
                 </div>
                 """, unsafe_allow_html=True)
 
@@ -98,6 +98,14 @@ if language == "Français":
     st.subheader("Expériences Professionnel")
 
     # --- POSTE 1
+    
+    st.write(":red[**🚧 Projet final en intelligence artificielle | Endress+Hauser, Polytechnique Montréal** _(Septembre 2022 - Décembre 2022)_]")
+    st.write("Endress+Hauser est une société produisant des instruments de mesure et d'automatisation pour les processus industriels")
+    st.write("- ► Débruitage du signal de capteurs de température, identification et suppression des valeurs singulières, détection de clusters au sein des données")
+    st.write("- ► Test et comparaison de différents modèles d'apprentissage automatique (RNN, LSTM, N-BEATS) dans le but de prévoir la duréee de vie des capteurs (prévision de séries temporelles)")
+    st.write("- ► Création d'un tableau de bord afin de visualiser les étapes du prétraitement des données et des prédictions")
+    
+    st.write('\n')
     st.write("🚧", ":red[**Junior Data Scientist | Goldspot Discoveries** _(Septembre 2021 - Décembre 2021)_]")
     st.write("Goldspot Discoveries est une startup mêlant intelligence artificielle et géoscience")
     st.write("- ► Développement d'outils de visualisation pour des jeux de données provenant de forages (estimation des ressources minérales)")
@@ -114,13 +122,7 @@ if language == "Français":
     st.write("📺 [Démo : https://benjamin-ousmane-ufc-app-app-l8bv5i.streamlit.app/](https://benjamin-ousmane-ufc-app-app-l8bv5i.streamlit.app/)")
     st.video(video_ufc_bytes)
     # --- Projet --- 
-    st.write('\n')
-    st.write(":red[**🏆 Projet final en intelligence artificielle | Endress+Hauser, Polytechnique Montréal** _(Automne 2022, 180 heures de travail)_]")
-    st.write("**Description** : _Prédiction de la durée de vie d'un capteur_")
-    st.write("- ► Débruitage du signal, suppression des valeurs singulières, détection de clusters")
-    st.write("- ► Test et comparaison de différents modèles d'apprentissage automatique pour la prévision de séries temporelles (RNN, LSTM, N-BEATS)")
-    st.write("- ► Création d'un tableau de bord afin de visualiser les étapes du prétraitement des données et des prédictions")
-    st.write("**Outils utilisés** : _Tensorflow, Scikit-learn, Ruptures, Streamlit, Altair_")
+
 
     # --- Projet --- 
     st.write('\n')
