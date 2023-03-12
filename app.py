@@ -81,8 +81,8 @@ if language == "Français":
     st.subheader("Résumé")
     st.markdown("""
                 <div style="text-align: justify;">
-                    Jeune ingénieur logiciel diplômé de Polytechnique Montréal. Je reviens m'installer en France pour mettre en pratique mes compétences en développement d'applications 
-                    et data science. 
+                    Jeune ingénieur logiciel diplômé de Polytechnique Montréal (Québec, Canada), 
+                    je reviens m'installer en France pour mettre en pratique mes compétences en développement d'applications et data science. 
                     Ayant un grand intérêt pour la recherche et l'analyse de données, je possède des connaissances approfondies en visualisation de données, fouille de données et machine learning.
                     Je suis à la recherche d'une expérience professionnelle en tant que <b>data scientist</b> dans un domaine lié au sport et à la performance athlétique.   
                 </div>
