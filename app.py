@@ -50,8 +50,6 @@ if language == "Français":
     st.title("Benjamin-Ousmane M'Bengue")
     st.subheader("**Ingénieur Logiciel _(Data Science & IA)_**")
     
-
-    
     # --- Médias ---
     # st.subheader("Médias")
     st.write("📫", "benjamin-ousmane.mbengue@hotmail.com")
@@ -75,9 +73,11 @@ if language == "Français":
     </a>
     """, unsafe_allow_html=True)
     
-    st.write("---")
+
     
+       
     # --- Résumé ---
+    st.write("---")
     st.subheader("Résumé")
     st.markdown("""
                 <div style="text-align: justify;">
@@ -90,19 +90,19 @@ if language == "Français":
 
     st.write("")
     st.write("---")
-    
+        
     # col1, col2 = st.columns([4,5], gap="large")
     # with col2:
     
     # --- HISTORIQUE PROFESSIONNEL ---
-    st.subheader("Expériences Professionnel")
+    st.subheader("Expériences Professionnelles")
 
     # --- POSTE 1
     
     st.write(":red[**🚧 Projet final en intelligence artificielle | Endress+Hauser, Polytechnique Montréal** _(Septembre 2022 - Décembre 2022)_]")
     st.write("Endress+Hauser est une société produisant des instruments de mesure et d'automatisation pour les processus industriels")
     st.write("- ► Débruitage du signal de capteurs de température, identification et suppression des valeurs singulières, détection de clusters au sein des données")
-    st.write("- ► Test et comparaison de différents modèles d'apprentissage automatique (RNN, LSTM, N-BEATS) dans le but de prévoir la duréee de vie des capteurs (prévision de séries temporelles)")
+    st.write("- ► Test et comparaison de différents modèles d'apprentissage automatique (RNN, LSTM, N-BEATS) dans le but de prévoir la durée de vie des capteurs (prévision de séries temporelles)")
     st.write("- ► Création d'un tableau de bord afin de visualiser les étapes du prétraitement des données et des prédictions")
     
     st.write('\n')
@@ -143,11 +143,12 @@ if language == "Français":
     st.write("**Outils utilisés** : _Figma, D3, React_")
     st.write("📺 Démo :")
     st.video(video_ballon_or_bytes)
+
+
+# with col1:
     
-    
-    # with col1:
-    
-    
+            
+
     # --- Compétences ---
     st.write("---")
     st.subheader("Compétences")
@@ -184,4 +185,4 @@ if language == "Français":
     st.write("- _Michael Gundill, Kelly Starrett, Didier Reiss_")
     st.write("- ► Études de méthodes")
     st.write("- _Méthode ATG, méthode Weck, méthode Ido Portal, etc._")
-    
+        
