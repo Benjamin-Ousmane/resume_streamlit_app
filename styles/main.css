@@ -24,9 +24,10 @@ hr {
 }
 
 #MainMenu {visibility: hidden;} 
-footer {visibility: hidden;}
 header {visibility: hidden;}
+footer {visibility: hidden;}
 
 /* .css-91z34k {
     padding: 0px;
+    max-width: 70rem;
 } */
