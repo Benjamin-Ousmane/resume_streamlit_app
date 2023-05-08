@@ -85,7 +85,7 @@ st.markdown("""
                 Jeune ingénieur logiciel diplômé de Polytechnique Montréal (Québec, Canada), 
                 je reviens m'installer en France pour débuter ma carrière professionnelle. 
                 De par ma formation, je possède des connaissances approfondies en <b>data science</b> notamment en <b>visualisation de données</b> et <b>machine learning</b>, ainsi qu'en <b>développement d'applications web</b>.
-                Discipliné, réfléchi et passionné de sports, je suis à la recherche d'une expérience professionnelle en tant que <b>data scientist</b> ou <b>web developer</b> dans un domaine lié à la performance athlétique.   
+                Discipliné et réfléchi, je suis à la recherche d'une expérience professionnelle en tant que <b>data scientist</b> ou <b>web developer</b>.   
             </div>
             """, unsafe_allow_html=True)
 
