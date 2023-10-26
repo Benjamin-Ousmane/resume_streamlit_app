@@ -100,7 +100,6 @@ st.write("**Description** : _Web application that allows Tristar Gym members to 
 st.write("- ► Implementing modules allowing teachers to create lessons")
 st.write("- ► Handling Firebase database")
 st.write("**Tools used** : _NextJS, React, Firebase_")
-st.write("**Supervisor** : _hamza.lakrati@outlook.com_")
 st.write("📺 Demo :")
 st.video(video_tristar_bytes)
 
